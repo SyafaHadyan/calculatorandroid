@@ -96,4 +96,17 @@
         app:cornerRadius="?android:attr/buttonCornerRadius"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="542dp" />
+
+    <EditText
+        android:id="@+id/resultbox"
+        android:layout_width="400dp"
+        android:layout_height="130dp"
+        android:layout_margin="20px"
+        android:background="#2E2E2E"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:visibility="visible"
+        app:layout_constraintCircleRadius="?attr/dialogCornerRadius"
+        tools:layout_editor_absoluteX="17dp"
+        tools:layout_editor_absoluteY="19dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
